@@ -76,13 +76,14 @@ pytest tests/
 
 ---
 
-### test_products.py — Product Tests (3 tests)
+### test_products.py — Product Tests (4 tests)
 
 | Test | Description |
 |---|---|
 | test_sort | Sort products Z to A, verifies first product |
-| test_price | Verifies correct price for all 6 products using filter |
-| test_removecart | Adds 6 products and removes all, verifies empty cart |
+| test_multi_cart | Add 6 products, verify badge shows 6 |
+| test_price | Verify correct price for all 6 products using filter and loop |
+| test_removecart | Add 6 products and remove all, verify empty cart |
 
 ---
 
